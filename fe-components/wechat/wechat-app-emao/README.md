@@ -25,40 +25,40 @@
 >我们使用app.json文件来对微信小程序进行全局配置，决定页面文件的路径、窗口表现、设置网络超时时间、设置多 tab 等。
   以下是一个包含了所有配置选项的简单配置app.json ：
 
-> `{
->   "pages":[
->     "pages/index/index",
->     "pages/newsimg/newsimg",
->     "pages/detail/detail"
->   ],
->   "window":{
->     "backgroundTextStyle":"light",
->     "navigationBarBackgroundColor": "#f3b338",
->     "navigationBarTitleText": "一猫汽车网",
->     "navigationBarTextStyle":"white",
->     "enablePullDownRefresh": true
->   },
->   "tabBar": {
->     "color": "#ccc",
->     "selectedColor": "#35495e",
->     "borderStyle": "white",
->     "backgroundColor": "#f9f9f9",
->     "list": [
->       {
->         "pagePath": "pages/index/index",
->         "text": "首页",
->         "iconPath": "pages/images/tab-1.png",
->         "selectedIconPath": "pages/images/tab-1_1.png"
->       },
->       {
->         "pagePath": "pages/newsimg/newsimg",
->         "text": "图片新闻",
->         "iconPath": "pages/images/tab-2.png",
->         "selectedIconPath": "pages/images/tab-2_2.png"
->       }
->     ]
->   }
-> }`
+`{
+   "pages":[
+     "pages/index/index",
+     "pages/newsimg/newsimg",
+     "pages/detail/detail"
+   ],
+  "window":{
+     "backgroundTextStyle":"light",
+     "navigationBarBackgroundColor": "#f3b338",
+     "navigationBarTitleText": "一猫汽车网",
+     "navigationBarTextStyle":"white",
+     "enablePullDownRefresh": true
+   },
+   "tabBar": {
+     "color": "#ccc",
+     "selectedColor": "#35495e",
+     "borderStyle": "white",
+     "backgroundColor": "#f9f9f9",
+     "list": [
+       {
+         "pagePath": "pages/index/index",
+         "text": "首页",
+         "iconPath": "pages/images/tab-1.png",
+         "selectedIconPath": "pages/images/tab-1_1.png"
+       },
+       {
+         "pagePath": "pages/newsimg/newsimg",
+         "text": "图片新闻",
+         "iconPath": "pages/images/tab-2.png",
+         "selectedIconPath": "pages/images/tab-2_2.png"
+       }
+     ]
+   }
+}`
 
 ## 教程
 [官方文档](https://mp.weixin.qq.com/debug/wxadoc/dev/index.html)
