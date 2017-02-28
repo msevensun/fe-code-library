@@ -1,0 +1,20 @@
+<scroll-view scroll-y="true" style="height: {{windowHeight}}px;">
+    <!--标题-->
+    <view class="box-title">
+        <text class="title">{{content.title}}</text>
+        <view class="flag-wrap">
+            <text class="name">{{content.author}}</text>
+            <time class="time">{{content.ptime}}</time>
+        </view>
+    </view>
+    <view class="body-content">
+        <view wx:if="{{condition == 'false'}}">
+            {{content.body}}
+        </view>
+        <view wx:elif="{{condition == 'true'}}">
+            <view wx:for="{{content.img}}">
+                <image src="{{item.src}}" />
+            </view>
+        </view>
+    </view>
+</scroll-view>

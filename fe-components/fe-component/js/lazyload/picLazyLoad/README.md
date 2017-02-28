@@ -1,0 +1,1 @@
+github: https://github.com/ximan/picLazyLoad/blob/gh-pages/src/picLazyLoad.js

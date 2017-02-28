@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/newsimg/newsimg",
+    "pages/detail/detail",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f3b338",
+    "navigationBarTitleText": "一猫汽车网",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#35495e",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/tab-1.png",
+        "selectedIconPath": "pages/images/tab-1_1.png"
+      },
+      {
+        "pagePath": "pages/newsimg/newsimg",
+        "text": "图片新闻",
+        "iconPath": "pages/images/tab-2.png",
+        "selectedIconPath": "pages/images/tab-2_2.png"
+      }
+    ]
+  },
+  "debug": true
+}

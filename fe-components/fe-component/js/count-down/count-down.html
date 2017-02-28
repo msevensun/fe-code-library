@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="../../../fe-frame/javascript/zepto/zepto-1.2.0.js"></script>
+	<script src="./count-down.js"></script>
+</head>
+<body>
+	<div class="countDown">
+		<span class="d"></span>
+		<span class="h"></span>
+		<span class="m"></span>
+		<span class="s"></span>
+	</div>
+</body>
+<script>
+	$(".countDown").countTime({
+		EndTime: "2017-10-5 15:58:10", //设置结束时间；
+		callback:function(){     //当时间结束时候回调的函数   
+			alert("时间到了")
+		},
+	})
+</script>
